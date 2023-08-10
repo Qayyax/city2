@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: auto 20px auto 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 5px solid black; */
+  padding: 20px 15px 20px;
+  background-color: rgba(233, 207, 190, 0.266);
+  z-index: 1000;
+  font-size: 20px;
+  position: sticky;
+}
+
+nav p {
+  font-size: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+nav ul li:hover {
+  background-color: rgba(233, 207, 190, 0.452);
+  padding: 20px 15px 20px;
+}
+
+header {
+  margin-top: 0;
+  height: 800px;
+  background-image: url('/Images/bridge.jpg');
+  background-size: cover;
+  background-color: rgba(236, 151, 98, 0.538);
+  background-blend-mode: multiply;
+  color: #ffffff;
+  text-shadow: 0 0 5px #44362e;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.header-section p {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.header-section h1 {
+  margin-bottom: 8px;
+  font-size: 141.3333px;
+}
+
+#sub-heading {
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+/* Museum section */
+
+#museum {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 40px 0 40px;
+  /* flex-wrap: wrap; */
+
+  color: #44362e;
+
+  background-color: #e5ded9;
+
+  padding: 90px 40px 70px;
+}
+
+.museum-img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  border: 5px solid #44362e;
+  border-radius: 15px;
+  padding: 9px;
+}
+
+.museum-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 500px;
+  text-align: left;
+}
+
+.museum-h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.museum-p {
+  word-spacing: 5px;
+}
+
+/* Events section */
+
+#events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ded7d2;
+  padding: 35px 30px 35px;
+
+  color: #44362e;
+}
+
+.events-h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.three-events {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.music-fest-img {
+  width: 400px;
+  height: 250px;
+  border: 5px solid #44362e;
+  border-radius: 16px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.music-fest-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.music-fest-text {
+  width: 400px;
+  height: 250px;
+  border: 1px solid #44362e;
+  padding: 25px;
+  border-radius: 16px;
+}
+
+.music-fest-h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.music-fest-p {
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* About me section */
+
+footer {
+  color: #44362e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 9px 30px;
+  width: 500px;
+  border-bottom: 8px solid #44362e;
+  margin: 60px auto 60px;
+  background-color: #e5ded9;
+}
+
+footer img {
+  height: 250px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 190px;
+}
+
+footer div h1 {
+  margin-bottom: 20px;
+}
+
+footer div p:nth-child(3) {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: large;
+}
